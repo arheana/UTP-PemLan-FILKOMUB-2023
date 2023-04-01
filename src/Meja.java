@@ -44,6 +44,6 @@ public class Meja {
 
     // untuk mengecek apakah meja kosong
     public boolean isKosong() {
-        // EDIT DISINI
+        return menu[0] == null && pelanggan == null;
     }
 }
